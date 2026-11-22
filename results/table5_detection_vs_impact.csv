@@ -1,0 +1,5 @@
+impact_bin,B1 Gate-count RF,B2 Wire-bigram RF,B3 Wire-bigram HGB,B4 Idempotence-residual HGB,GIN graph head,Proposed GIN-L2D,n
+dormant (<0.01),0.115,0.415,0.367,0.398,0.37,0.404,349
+low (0.01-0.1),0.123,0.384,0.356,0.425,0.356,0.315,73
+medium (0.1-0.3),0.131,0.297,0.217,0.32,0.36,0.337,175
+high (>0.3),0.114,0.287,0.226,0.332,0.287,0.341,446

@@ -1,0 +1,11 @@
+group,variant,AUC (all types),AUC (mean over types)
+calibration,Raw surprisal (mean of three highest),0.578 ± 0.025,0.578 ± 0.025
+calibration,"Pooled p-value (no per-type), size-corrected",0.595 ± 0.045,0.596 ± 0.044
+calibration,"Per-type p-value, no size correction",0.613 ± 0.048,0.613 ± 0.048
+calibration,"Per-type p-value, size-corrected (MGM-C)",0.613 ± 0.055,0.614 ± 0.055
+architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.613 ± 0.055,0.614 ± 0.055
+architecture,Gate graph instead of port graph,0.596 ± 0.052,0.596 ± 0.051
+architecture,Mask rate 10%,0.609 ± 0.053,0.610 ± 0.053
+architecture,Mask rate 25%,0.613 ± 0.052,0.613 ± 0.052
+architecture,2 GINE layers,0.593 ± 0.042,0.593 ± 0.041
+architecture,6 GINE layers,0.621 ± 0.056,0.621 ± 0.055

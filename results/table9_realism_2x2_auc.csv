@@ -1,0 +1,5 @@
+setting,B1 Gate-count RF,B2 Wire-bigram RF,B3 Wire-bigram HGB,B4 Idempotence-residual HGB,GIN graph head,Proposed GIN-L2D
+Fixed compiler + random split,0.876 ± 0.029,0.910 ± 0.025,0.899 ± 0.027,0.922 ± 0.023,0.802 ± 0.034,0.800 ± 0.032
+Fixed compiler + family split,0.539 ± 0.036,0.643 ± 0.034,0.655 ± 0.023,0.746 ± 0.046,0.690 ± 0.029,0.693 ± 0.032
+Honest variation + random split,0.531 ± 0.024,0.610 ± 0.010,0.645 ± 0.011,0.688 ± 0.017,0.621 ± 0.081,0.711 ± 0.030
+Honest variation + family split,0.527 ± 0.019,0.614 ± 0.019,0.610 ± 0.028,0.669 ± 0.024,0.628 ± 0.057,0.683 ± 0.029

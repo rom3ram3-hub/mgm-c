@@ -1,0 +1,5 @@
+comparison,mean difference,95% CI low,95% CI high,splits won
+MGM-C (calibrated) − B4 Idempotence-residual HGB,0.075,0.049,0.093,9/10
+MGM-C (calibrated) − Proposed GIN-L2D,0.103,0.081,0.13,9/10
+MGM-C (calibrated) − U1 Wire-bigram surprisal (calibrated),0.02,0.002,0.045,6/10
+MGM-C (calibrated) − MGM (self-supervised),0.036,0.014,0.047,8/10

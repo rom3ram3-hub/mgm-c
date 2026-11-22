@@ -1,0 +1,7 @@
+gate,honest_gates,trojan_gates,honest_mean_surprisal,trojan_mean_surprisal,AUC_trojan_vs_honest
+rz,77799,418,1.636,4.398,0.822
+sx,34782,208,0.399,4.085,0.955
+x,16138,209,0.764,3.047,0.889
+cx,57843,628,0.652,1.383,0.77
+"all gate types, raw surprisal",186562,1463,,,0.786
+"all gate types, calibrated",186562,1463,,,0.826

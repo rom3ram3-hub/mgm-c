@@ -1,0 +1,841 @@
+seed,variant,detector,AUC
+7,T1_phase (standard),B4 Idempotence-residual HGB,0.8855266244428807
+7,T1_phase (standard),Proposed GIN-L2D,0.7093596059113301
+7,T1_phase (standard),MGM (self-supervised),0.682383298146845
+7,T1_phase (standard),MGM-C (calibrated),0.7118226600985221
+7,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.8563218390804598
+7,T1_phase (standard),U2 Isolation forest (B2 features),0.5467980295566502
+7,T1_phase (standard),U3 Re-optimisation residual distance,0.5041050903119868
+7,T2_superposition (standard),B4 Idempotence-residual HGB,0.6433262960356556
+7,T2_superposition (standard),Proposed GIN-L2D,0.5953553835327234
+7,T2_superposition (standard),MGM (self-supervised),0.5844475721323011
+7,T2_superposition (standard),MGM-C (calibrated),0.6673703964344359
+7,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.6720619282195636
+7,T2_superposition (standard),U2 Isolation forest (B2 features),0.498240675580577
+7,T2_superposition (standard),U3 Re-optimisation residual distance,0.6352334037063101
+7,T3_entangler (standard),B4 Idempotence-residual HGB,0.5177105324888576
+7,T3_entangler (standard),Proposed GIN-L2D,0.5972319962467745
+7,T3_entangler (standard),MGM (self-supervised),0.5034013605442177
+7,T3_entangler (standard),MGM-C (calibrated),0.543631245601689
+7,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.5138400187661271
+7,T3_entangler (standard),U2 Isolation forest (B2 features),0.4736101337086559
+7,T3_entangler (standard),U3 Re-optimisation residual distance,0.4520290874970678
+7,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.5804988662131518
+7,T4_zz_camouflage (standard),Proposed GIN-L2D,0.6312925170068028
+7,T4_zz_camouflage (standard),MGM (self-supervised),0.46485260770975056
+7,T4_zz_camouflage (standard),MGM-C (calibrated),0.4494331065759637
+7,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.4519274376417234
+7,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.5639455782312925
+7,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.5299319727891156
+7,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.773868167956838
+7,T5_readout_flip (standard),Proposed GIN-L2D,0.6931738212526389
+7,T5_readout_flip (standard),MGM (self-supervised),0.5202908749706779
+7,T5_readout_flip (standard),MGM-C (calibrated),0.5680272108843537
+7,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.5409336148252405
+7,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.5557119399483931
+7,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.5475017593244194
+7,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.8252404410039879
+7,T1_phase (angle-matched),Proposed GIN-L2D,0.6802721088435373
+7,T1_phase (angle-matched),MGM (self-supervised),0.6647900539526154
+7,T1_phase (angle-matched),MGM-C (calibrated),0.7111189303307529
+7,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.8001407459535538
+7,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.5296739385409337
+7,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.5697865353037767
+7,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.6494331065759638
+7,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.6548752834467121
+7,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.5340136054421768
+7,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.5369614512471654
+7,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.5351473922902494
+7,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.536281179138322
+7,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.5904761904761904
+7,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.5148956134177809
+7,T1_phase (pre-optimisation),Proposed GIN-L2D,0.5430448041285479
+7,T1_phase (pre-optimisation),MGM (self-supervised),0.4977715224020643
+7,T1_phase (pre-optimisation),MGM-C (calibrated),0.4717335209946047
+7,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5263898662913441
+7,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.5777621393384941
+7,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.5620455078583158
+7,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.5155328798185941
+7,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.49433106575963726
+7,T2_superposition (pre-optimisation),MGM (self-supervised),0.4790249433106576
+7,T2_superposition (pre-optimisation),MGM-C (calibrated),0.48446712018140586
+7,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5071428571428571
+7,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.4551020408163265
+7,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.5119047619047619
+7,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.5378684807256235
+7,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.47959183673469385
+7,T3_entangler (pre-optimisation),MGM (self-supervised),0.4757369614512472
+7,T3_entangler (pre-optimisation),MGM-C (calibrated),0.4709750566893424
+7,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.4668934240362812
+7,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.4600907029478458
+7,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.5299319727891156
+7,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.5648526077097507
+7,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.5428571428571428
+7,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.519501133786848
+7,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.4929705215419501
+7,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.45510204081632655
+7,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.5517006802721088
+7,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.6368480725623583
+7,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.5188834154351395
+7,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.5913675815153648
+7,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.51430917194464
+7,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.5734224724372508
+7,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5740089139103917
+7,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.49824067558057705
+7,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.509617640159512
+11,T1_phase (standard),B4 Idempotence-residual HGB,0.8289653912884669
+11,T1_phase (standard),Proposed GIN-L2D,0.7486074331111314
+11,T1_phase (standard),MGM (self-supervised),0.7657748150853804
+11,T1_phase (standard),MGM-C (calibrated),0.7914802301159712
+11,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.8150853803305634
+11,T1_phase (standard),U2 Isolation forest (B2 features),0.47502511186193036
+11,T1_phase (standard),U3 Re-optimisation residual distance,0.5856542781481143
+11,T2_superposition (standard),B4 Idempotence-residual HGB,0.6596657839466715
+11,T2_superposition (standard),Proposed GIN-L2D,0.7139074057163729
+11,T2_superposition (standard),MGM (self-supervised),0.6459684047118984
+11,T2_superposition (standard),MGM-C (calibrated),0.8061364258971783
+11,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.6490731440051136
+11,T2_superposition (standard),U2 Isolation forest (B2 features),0.5316409460323258
+11,T2_superposition (standard),U3 Re-optimisation residual distance,0.5080357958177335
+11,T3_entangler (standard),B4 Idempotence-residual HGB,0.5725047940827321
+11,T3_entangler (standard),Proposed GIN-L2D,0.5223267281526802
+11,T3_entangler (standard),MGM (self-supervised),0.5457035887133596
+11,T3_entangler (standard),MGM-C (calibrated),0.5550178065930053
+11,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.575107296137339
+11,T3_entangler (standard),U2 Isolation forest (B2 features),0.5783033512921195
+11,T3_entangler (standard),U3 Re-optimisation residual distance,0.6098073235320975
+11,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.6099085650307894
+11,T4_zz_camouflage (standard),Proposed GIN-L2D,0.7303601418175032
+11,T4_zz_camouflage (standard),MGM (self-supervised),0.5500093300988991
+11,T4_zz_camouflage (standard),MGM-C (calibrated),0.6148535174472849
+11,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.47504198544504567
+11,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.457921253965292
+11,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.4990203396156
+11,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.5941009953428911
+11,T5_readout_flip (standard),Proposed GIN-L2D,0.8256780202721213
+11,T5_readout_flip (standard),MGM (self-supervised),0.4975801296685234
+11,T5_readout_flip (standard),MGM-C (calibrated),0.559674915532828
+11,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.4999543420692174
+11,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.5429641128664049
+11,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.47150945119167204
+11,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.6948223906492558
+11,T1_phase (angle-matched),Proposed GIN-L2D,0.6776550086750069
+11,T1_phase (angle-matched),MGM (self-supervised),0.6586613094694549
+11,T1_phase (angle-matched),MGM-C (calibrated),0.705688978175509
+11,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.7028581864669894
+11,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.4902748607433111
+11,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.5163911971509451
+11,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.6603844000746407
+11,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.6685948871058033
+11,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.5765068109721962
+11,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.5570069042731853
+11,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.5189867512595634
+11,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.5158611681283821
+11,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.6402780369471917
+11,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.518147042358649
+11,T1_phase (pre-optimisation),Proposed GIN-L2D,0.4642657212166449
+11,T1_phase (pre-optimisation),MGM (self-supervised),0.5188934502705729
+11,T1_phase (pre-optimisation),MGM-C (calibrated),0.5375536480686696
+11,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5036853890651241
+11,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.4854450457174846
+11,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.4758350438514648
+11,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.4989270386266095
+11,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.6580518753498787
+11,T2_superposition (pre-optimisation),MGM (self-supervised),0.6280089568949431
+11,T2_superposition (pre-optimisation),MGM-C (calibrated),0.7699197611494681
+11,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.6157398768426945
+11,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.524538160104497
+11,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.5827113267400634
+11,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.5743767692448178
+11,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.5421422701123185
+11,T3_entangler (pre-optimisation),MGM (self-supervised),0.5215962012601589
+11,T3_entangler (pre-optimisation),MGM-C (calibrated),0.5048853985937358
+11,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5492649073144005
+11,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.4921011779746142
+11,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.5295406812163272
+11,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.5310017350013698
+11,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.7319879463062734
+11,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.5204547529905944
+11,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.49351657382887404
+11,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.4804127476942744
+11,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.5035156606702584
+11,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.44206008583690987
+11,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.5191763309286823
+11,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.5599488631175236
+11,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.5524609624691809
+11,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.6255593096520866
+11,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5196329102365081
+11,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.544790430097708
+11,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.5377591087571911
+21,T1_phase (standard),B4 Idempotence-residual HGB,0.7975177304964539
+21,T1_phase (standard),Proposed GIN-L2D,0.7366860090264346
+21,T1_phase (standard),MGM (self-supervised),0.6954867827208253
+21,T1_phase (standard),MGM-C (calibrated),0.7488716956802063
+21,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.7831076724693745
+21,T1_phase (standard),U2 Isolation forest (B2 features),0.5087040618955513
+21,T1_phase (standard),U3 Re-optimisation residual distance,0.5468729851708576
+21,T2_superposition (standard),B4 Idempotence-residual HGB,0.6694390715667311
+21,T2_superposition (standard),Proposed GIN-L2D,0.5866537717601548
+21,T2_superposition (standard),MGM (self-supervised),0.5985815602836879
+21,T2_superposition (standard),MGM-C (calibrated),0.7195035460992908
+21,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.7198903932946485
+21,T2_superposition (standard),U2 Isolation forest (B2 features),0.5128304319793682
+21,T2_superposition (standard),U3 Re-optimisation residual distance,0.6009671179883946
+21,T3_entangler (standard),B4 Idempotence-residual HGB,0.5259941742654508
+21,T3_entangler (standard),Proposed GIN-L2D,0.5243794326241135
+21,T3_entangler (standard),MGM (self-supervised),0.4925911854103343
+21,T3_entangler (standard),MGM-C (calibrated),0.5474290780141844
+21,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.4744490881458967
+21,T3_entangler (standard),U2 Isolation forest (B2 features),0.5051925025329281
+21,T3_entangler (standard),U3 Re-optimisation residual distance,0.521403242147923
+21,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.577143212641533
+21,T4_zz_camouflage (standard),Proposed GIN-L2D,0.6682219733731491
+21,T4_zz_camouflage (standard),MGM (self-supervised),0.5191613786238646
+21,T4_zz_camouflage (standard),MGM-C (calibrated),0.5583551076272241
+21,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.5050080875948736
+21,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.5074654721911159
+21,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.5376384222968769
+21,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.7339780786589297
+21,T5_readout_flip (standard),Proposed GIN-L2D,0.7896840747904578
+21,T5_readout_flip (standard),MGM (self-supervised),0.5405867182462927
+21,T5_readout_flip (standard),MGM-C (calibrated),0.6377820760799483
+21,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.5125725338491296
+21,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.5390070921985816
+21,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.5327530625402968
+21,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.8077507598784195
+21,T1_phase (angle-matched),Proposed GIN-L2D,0.6987715298885512
+21,T1_phase (angle-matched),MGM (self-supervised),0.6785714285714286
+21,T1_phase (angle-matched),MGM-C (calibrated),0.7190032928064843
+21,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.7571238601823708
+21,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.5151975683890577
+21,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.6046099290780141
+21,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.524293890755257
+21,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.6623118078885155
+21,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.5752146323254946
+21,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.6631205673758865
+21,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.49912902824436983
+21,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.45953091949732483
+21,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.5709841980838621
+21,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.48112968591691996
+21,T1_phase (pre-optimisation),Proposed GIN-L2D,0.5157041540020264
+21,T1_phase (pre-optimisation),MGM (self-supervised),0.5029445288753799
+21,T1_phase (pre-optimisation),MGM-C (calibrated),0.5489804964539007
+21,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5584156534954408
+21,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.5128229483282675
+21,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.49806864235055726
+21,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.48292273236282196
+21,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.5340923230060968
+21,T2_superposition (pre-optimisation),MGM (self-supervised),0.5218987184272738
+21,T2_superposition (pre-optimisation),MGM-C (calibrated),0.5702376508647504
+21,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5478101281572727
+21,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.46317033719049394
+21,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.5036705238272987
+21,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.53558541744432
+21,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.5245738459624236
+21,T3_entangler (pre-optimisation),MGM (self-supervised),0.5154286425283066
+21,T3_entangler (pre-optimisation),MGM-C (calibrated),0.5350255070299863
+21,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5541246733855916
+21,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.46261042677616027
+21,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.49241010327236534
+21,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.6129052684903749
+21,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.5539513677811551
+21,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.5363475177304964
+21,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.5422049138804458
+21,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5198518237082067
+21,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.4780268490374873
+21,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.5740248226950355
+21,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.5433763931104356
+21,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.5623416919959473
+21,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.5195035460992907
+21,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.5723150962512664
+21,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5219731509625126
+21,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.4748606889564336
+21,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.5324848024316109
+33,T1_phase (standard),B4 Idempotence-residual HGB,0.8502958579881658
+33,T1_phase (standard),Proposed GIN-L2D,0.7795857988165681
+33,T1_phase (standard),MGM (self-supervised),0.7653846153846153
+33,T1_phase (standard),MGM-C (calibrated),0.7559171597633136
+33,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.8501479289940829
+33,T1_phase (standard),U2 Isolation forest (B2 features),0.48372781065088755
+33,T1_phase (standard),U3 Re-optimisation residual distance,0.49526627218934915
+33,T2_superposition (standard),B4 Idempotence-residual HGB,0.7893491124260357
+33,T2_superposition (standard),Proposed GIN-L2D,0.6597633136094675
+33,T2_superposition (standard),MGM (self-supervised),0.5384615384615384
+33,T2_superposition (standard),MGM-C (calibrated),0.6068047337278106
+33,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.661094674556213
+33,T2_superposition (standard),U2 Isolation forest (B2 features),0.5023668639053255
+33,T2_superposition (standard),U3 Re-optimisation residual distance,0.5292899408284024
+33,T3_entangler (standard),B4 Idempotence-residual HGB,0.5337278106508876
+33,T3_entangler (standard),Proposed GIN-L2D,0.5482248520710059
+33,T3_entangler (standard),MGM (self-supervised),0.5035502958579882
+33,T3_entangler (standard),MGM-C (calibrated),0.527810650887574
+33,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.5927514792899408
+33,T3_entangler (standard),U2 Isolation forest (B2 features),0.556508875739645
+33,T3_entangler (standard),U3 Re-optimisation residual distance,0.44822485207100593
+33,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.6363905325443786
+33,T4_zz_camouflage (standard),Proposed GIN-L2D,0.7668639053254438
+33,T4_zz_camouflage (standard),MGM (self-supervised),0.5729289940828401
+33,T4_zz_camouflage (standard),MGM-C (calibrated),0.5328402366863906
+33,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.5997041420118343
+33,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.5224852071005918
+33,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.49437869822485203
+33,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.5970414201183432
+33,T5_readout_flip (standard),Proposed GIN-L2D,0.9023668639053255
+33,T5_readout_flip (standard),MGM (self-supervised),0.49763313609467463
+33,T5_readout_flip (standard),MGM-C (calibrated),0.5488165680473374
+33,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.5452662721893492
+33,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.5659763313609468
+33,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.5505917159763314
+33,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.8997041420118344
+33,T1_phase (angle-matched),Proposed GIN-L2D,0.8408284023668638
+33,T1_phase (angle-matched),MGM (self-supervised),0.8068047337278107
+33,T1_phase (angle-matched),MGM-C (calibrated),0.8433431952662721
+33,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.9079881656804735
+33,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.6044378698224853
+33,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.5739644970414202
+33,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.6316568047337279
+33,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.8142011834319528
+33,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.4988165680473373
+33,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.4781065088757397
+33,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.6076923076923079
+33,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.5402366863905326
+33,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.5207100591715976
+33,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.5807692307692307
+33,T1_phase (pre-optimisation),Proposed GIN-L2D,0.44497041420118333
+33,T1_phase (pre-optimisation),MGM (self-supervised),0.5266272189349113
+33,T1_phase (pre-optimisation),MGM-C (calibrated),0.45517751479289936
+33,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5286982248520711
+33,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.5205621301775148
+33,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.48846153846153845
+33,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.4855029585798817
+33,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.5402366863905325
+33,T2_superposition (pre-optimisation),MGM (self-supervised),0.4738165680473373
+33,T2_superposition (pre-optimisation),MGM-C (calibrated),0.5236686390532544
+33,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5853550295857989
+33,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.44467455621301777
+33,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.43639053254437865
+33,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.5378461538461538
+33,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.4584615384615385
+33,T3_entangler (pre-optimisation),MGM (self-supervised),0.48646153846153845
+33,T3_entangler (pre-optimisation),MGM-C (calibrated),0.48861538461538456
+33,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5218461538461538
+33,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.45476923076923076
+33,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.47292307692307695
+33,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.4990769230769231
+33,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.6135384615384615
+33,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.5532307692307692
+33,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.6147692307692308
+33,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.612
+33,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.4784615384615385
+33,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.5266153846153846
+33,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.5251479289940828
+33,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.6301775147928994
+33,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.5218934911242603
+33,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.5473372781065089
+33,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5288461538461539
+33,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.521301775147929
+33,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.5448224852071006
+45,T1_phase (standard),B4 Idempotence-residual HGB,0.8641975308641975
+45,T1_phase (standard),Proposed GIN-L2D,0.810252281266774
+45,T1_phase (standard),MGM (self-supervised),0.7901234567901234
+45,T1_phase (standard),MGM-C (calibrated),0.5783682232957595
+45,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.6712292002147074
+45,T1_phase (standard),U2 Isolation forest (B2 features),0.46725711218464844
+45,T1_phase (standard),U3 Re-optimisation residual distance,0.5359634997316156
+45,T2_superposition (standard),B4 Idempotence-residual HGB,0.7070585077831454
+45,T2_superposition (standard),Proposed GIN-L2D,0.624530327428878
+45,T2_superposition (standard),MGM (self-supervised),0.512614063338701
+45,T2_superposition (standard),MGM-C (calibrated),0.49422973698336015
+45,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.49879227053140096
+45,T2_superposition (standard),U2 Isolation forest (B2 features),0.4750402576489533
+45,T2_superposition (standard),U3 Re-optimisation residual distance,0.6390230810520665
+45,T3_entangler (standard),B4 Idempotence-residual HGB,0.5841384863123994
+45,T3_entangler (standard),Proposed GIN-L2D,0.5477724100912507
+45,T3_entangler (standard),MGM (self-supervised),0.5316693505099301
+45,T3_entangler (standard),MGM-C (calibrated),0.5018786902844874
+45,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.488191089640365
+45,T3_entangler (standard),U2 Isolation forest (B2 features),0.5450885668276972
+45,T3_entangler (standard),U3 Re-optimisation residual distance,0.5206655931293612
+45,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.5732133933033483
+45,T4_zz_camouflage (standard),Proposed GIN-L2D,0.6534232883558221
+45,T4_zz_camouflage (standard),MGM (self-supervised),0.5354822588705648
+45,T4_zz_camouflage (standard),MGM-C (calibrated),0.4825087456271864
+45,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.48450774612693653
+45,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.5357321339330334
+45,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.5924537731134432
+45,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.6208592132505176
+45,T5_readout_flip (standard),Proposed GIN-L2D,0.7960662525879917
+45,T5_readout_flip (standard),MGM (self-supervised),0.5234213250517599
+45,T5_readout_flip (standard),MGM-C (calibrated),0.5357142857142857
+45,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.5014233954451346
+45,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.5085403726708074
+45,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.4945652173913043
+45,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.841097308488613
+45,T1_phase (angle-matched),Proposed GIN-L2D,0.7839026915113871
+45,T1_phase (angle-matched),MGM (self-supervised),0.7388716356107661
+45,T1_phase (angle-matched),MGM-C (calibrated),0.5574534161490683
+45,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.629787784679089
+45,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.5478778467908904
+45,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.6413043478260869
+45,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.6178207192699947
+45,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.6234567901234568
+45,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.5195920558239399
+45,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.4837627482555018
+45,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.48174986580783685
+45,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.4837627482555019
+45,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.5389157273215245
+45,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.4934245840042942
+45,T1_phase (pre-optimisation),Proposed GIN-L2D,0.5169082125603865
+45,T1_phase (pre-optimisation),MGM (self-supervised),0.5358293075684379
+45,T1_phase (pre-optimisation),MGM-C (calibrated),0.5359634997316156
+45,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.4830917874396135
+45,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.47678475577026297
+45,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.5293880837359098
+45,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.43646480331262943
+45,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.5507246376811594
+45,T2_superposition (pre-optimisation),MGM (self-supervised),0.5476190476190477
+45,T2_superposition (pre-optimisation),MGM-C (calibrated),0.4558747412008282
+45,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.44500517598343686
+45,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.43931159420289856
+45,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.5142339544513459
+45,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.5032483758120939
+45,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.4567716141929036
+45,T3_entangler (pre-optimisation),MGM (self-supervised),0.5147426286856572
+45,T3_entangler (pre-optimisation),MGM-C (calibrated),0.4700149925037481
+45,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5029985007496252
+45,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.46851574212893554
+45,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.48025987006496756
+45,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.5256211180124224
+45,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.5546066252587991
+45,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.5240683229813664
+45,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.4795548654244306
+45,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.49184782608695654
+45,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.4968944099378882
+45,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.5661231884057971
+45,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.48317805383022777
+45,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.6159420289855072
+45,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.5137163561076605
+45,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.4939182194616978
+45,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5126811594202898
+45,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.5194099378881988
+45,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.5100931677018634
+57,T1_phase (standard),B4 Idempotence-residual HGB,0.8158024691358026
+57,T1_phase (standard),Proposed GIN-L2D,0.7484444444444444
+57,T1_phase (standard),MGM (self-supervised),0.7619753086419754
+57,T1_phase (standard),MGM-C (calibrated),0.6804938271604939
+57,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.7434567901234568
+57,T1_phase (standard),U2 Isolation forest (B2 features),0.5001481481481482
+57,T1_phase (standard),U3 Re-optimisation residual distance,0.5256296296296297
+57,T2_superposition (standard),B4 Idempotence-residual HGB,0.7046913580246914
+57,T2_superposition (standard),Proposed GIN-L2D,0.5848888888888888
+57,T2_superposition (standard),MGM (self-supervised),0.5674567901234568
+57,T2_superposition (standard),MGM-C (calibrated),0.7910123456790124
+57,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.6831604938271606
+57,T2_superposition (standard),U2 Isolation forest (B2 features),0.5601975308641977
+57,T2_superposition (standard),U3 Re-optimisation residual distance,0.5450370370370371
+57,T3_entangler (standard),B4 Idempotence-residual HGB,0.6513580246913581
+57,T3_entangler (standard),Proposed GIN-L2D,0.5466666666666666
+57,T3_entangler (standard),MGM (self-supervised),0.47111111111111115
+57,T3_entangler (standard),MGM-C (calibrated),0.4653827160493827
+57,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.49204938271604937
+57,T3_entangler (standard),U2 Isolation forest (B2 features),0.5283950617283951
+57,T3_entangler (standard),U3 Re-optimisation residual distance,0.5675061728395062
+57,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.6368395061728395
+57,T4_zz_camouflage (standard),Proposed GIN-L2D,0.7332345679012346
+57,T4_zz_camouflage (standard),MGM (self-supervised),0.5137777777777778
+57,T4_zz_camouflage (standard),MGM-C (calibrated),0.45214814814814813
+57,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.5023703703703704
+57,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.4320987654320988
+57,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.5355061728395062
+57,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.6707160493827161
+57,T5_readout_flip (standard),Proposed GIN-L2D,0.7522962962962962
+57,T5_readout_flip (standard),MGM (self-supervised),0.541283950617284
+57,T5_readout_flip (standard),MGM-C (calibrated),0.5648395061728395
+57,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.45837037037037043
+57,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.5447901234567901
+57,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.5140740740740741
+57,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.7536790123456791
+57,T1_phase (angle-matched),Proposed GIN-L2D,0.6857283950617284
+57,T1_phase (angle-matched),MGM (self-supervised),0.7301728395061728
+57,T1_phase (angle-matched),MGM-C (calibrated),0.6738765432098766
+57,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.6671604938271605
+57,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.47920987654320985
+57,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.5621728395061728
+57,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.6203950617283951
+57,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.6775308641975308
+57,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.5939753086419752
+57,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.5734814814814815
+57,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.44498765432098764
+57,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.47283950617283954
+57,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.601679012345679
+57,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.5188888888888888
+57,T1_phase (pre-optimisation),Proposed GIN-L2D,0.5275757575757576
+57,T1_phase (pre-optimisation),MGM (self-supervised),0.5320707070707071
+57,T1_phase (pre-optimisation),MGM-C (calibrated),0.5352525252525252
+57,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5564141414141415
+57,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.4902525252525252
+57,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.4842424242424242
+57,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.5882962962962964
+57,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.5738271604938271
+57,T2_superposition (pre-optimisation),MGM (self-supervised),0.541679012345679
+57,T2_superposition (pre-optimisation),MGM-C (calibrated),0.7025679012345679
+57,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5756543209876542
+57,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.4987160493827161
+57,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.47575308641975306
+57,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.4799033816425121
+57,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.4831884057971015
+57,T3_entangler (pre-optimisation),MGM (self-supervised),0.5190338164251208
+57,T3_entangler (pre-optimisation),MGM-C (calibrated),0.5287922705314009
+57,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.6090338164251208
+57,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.5070048309178744
+57,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.4769565217391305
+57,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.5184541062801933
+57,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.5434782608695652
+57,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.537487922705314
+57,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.46724637681159414
+57,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5680676328502416
+57,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.4528502415458937
+57,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.46714975845410633
+57,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.6073086419753086
+57,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.6476049382716049
+57,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.5314074074074074
+57,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.5956543209876544
+57,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5347654320987654
+57,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.5410370370370371
+57,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.5175308641975308
+69,T1_phase (standard),B4 Idempotence-residual HGB,0.8203124999999999
+69,T1_phase (standard),Proposed GIN-L2D,0.7506009615384616
+69,T1_phase (standard),MGM (self-supervised),0.6385216346153846
+69,T1_phase (standard),MGM-C (calibrated),0.6326622596153846
+69,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.7376802884615385
+69,T1_phase (standard),U2 Isolation forest (B2 features),0.4729567307692308
+69,T1_phase (standard),U3 Re-optimisation residual distance,0.4319411057692308
+69,T2_superposition (standard),B4 Idempotence-residual HGB,0.6380709134615384
+69,T2_superposition (standard),Proposed GIN-L2D,0.4840745192307692
+69,T2_superposition (standard),MGM (self-supervised),0.5189302884615384
+69,T2_superposition (standard),MGM-C (calibrated),0.6610576923076923
+69,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.5530348557692307
+69,T2_superposition (standard),U2 Isolation forest (B2 features),0.5486778846153846
+69,T2_superposition (standard),U3 Re-optimisation residual distance,0.5510817307692307
+69,T3_entangler (standard),B4 Idempotence-residual HGB,0.5662499999999999
+69,T3_entangler (standard),Proposed GIN-L2D,0.5606250000000002
+69,T3_entangler (standard),MGM (self-supervised),0.48875
+69,T3_entangler (standard),MGM-C (calibrated),0.5496875
+69,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.5787500000000001
+69,T3_entangler (standard),U2 Isolation forest (B2 features),0.5181250000000001
+69,T3_entangler (standard),U3 Re-optimisation residual distance,0.47406250000000005
+69,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.5300925925925926
+69,T4_zz_camouflage (standard),Proposed GIN-L2D,0.630787037037037
+69,T4_zz_camouflage (standard),MGM (self-supervised),0.5081018518518519
+69,T4_zz_camouflage (standard),MGM-C (calibrated),0.49074074074074076
+69,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.4780092592592593
+69,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.5506365740740741
+69,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.5973668981481481
+69,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.6773726851851851
+69,T5_readout_flip (standard),Proposed GIN-L2D,0.8344907407407407
+69,T5_readout_flip (standard),MGM (self-supervised),0.505787037037037
+69,T5_readout_flip (standard),MGM-C (calibrated),0.5389178240740741
+69,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.472511574074074
+69,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.532986111111111
+69,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.5465856481481481
+69,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.7677283653846154
+69,T1_phase (angle-matched),Proposed GIN-L2D,0.7052283653846153
+69,T1_phase (angle-matched),MGM (self-supervised),0.6739783653846154
+69,T1_phase (angle-matched),MGM-C (calibrated),0.6024639423076923
+69,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.7358774038461539
+69,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.5198317307692307
+69,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.58984375
+69,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.46375
+69,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.6612500000000001
+69,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.5146875
+69,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.4446875
+69,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.51328125
+69,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.5365625
+69,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.56515625
+69,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.47625
+69,T1_phase (pre-optimisation),Proposed GIN-L2D,0.4790625
+69,T1_phase (pre-optimisation),MGM (self-supervised),0.48875
+69,T1_phase (pre-optimisation),MGM-C (calibrated),0.4640625
+69,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5271875
+69,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.47890625
+69,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.509375
+69,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.51484375
+69,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.538125
+69,T2_superposition (pre-optimisation),MGM (self-supervised),0.48765624999999996
+69,T2_superposition (pre-optimisation),MGM-C (calibrated),0.5734375
+69,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.54078125
+69,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.538125
+69,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.5246875
+69,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.5045072115384616
+69,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.4864783653846153
+69,T3_entangler (pre-optimisation),MGM (self-supervised),0.5153245192307692
+69,T3_entangler (pre-optimisation),MGM-C (calibrated),0.48677884615384615
+69,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5498798076923077
+69,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.5009014423076923
+69,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.44576322115384615
+69,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.5481250000000001
+69,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.5746875
+69,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.529375
+69,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.5278125
+69,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.44531250000000006
+69,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.4821875
+69,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.55140625
+69,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.5525841346153846
+69,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.6171875
+69,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.5012019230769231
+69,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.49849759615384615
+69,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5168269230769231
+69,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.55078125
+69,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.48768028846153855
+81,T1_phase (standard),B4 Idempotence-residual HGB,0.8570312500000001
+81,T1_phase (standard),Proposed GIN-L2D,0.7863281249999999
+81,T1_phase (standard),MGM (self-supervised),0.828125
+81,T1_phase (standard),MGM-C (calibrated),0.7064453125
+81,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.7505859375
+81,T1_phase (standard),U2 Isolation forest (B2 features),0.49394531250000007
+81,T1_phase (standard),U3 Re-optimisation residual distance,0.5859375
+81,T2_superposition (standard),B4 Idempotence-residual HGB,0.737109375
+81,T2_superposition (standard),Proposed GIN-L2D,0.6287109375
+81,T2_superposition (standard),MGM (self-supervised),0.607421875
+81,T2_superposition (standard),MGM-C (calibrated),0.8505859374999999
+81,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.5970703125
+81,T2_superposition (standard),U2 Isolation forest (B2 features),0.558984375
+81,T2_superposition (standard),U3 Re-optimisation residual distance,0.47441406249999996
+81,T3_entangler (standard),B4 Idempotence-residual HGB,0.6095703125
+81,T3_entangler (standard),Proposed GIN-L2D,0.536328125
+81,T3_entangler (standard),MGM (self-supervised),0.5248046875
+81,T3_entangler (standard),MGM-C (calibrated),0.49082031249999997
+81,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.5060546875
+81,T3_entangler (standard),U2 Isolation forest (B2 features),0.54765625
+81,T3_entangler (standard),U3 Re-optimisation residual distance,0.583984375
+81,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.5740234375
+81,T4_zz_camouflage (standard),Proposed GIN-L2D,0.684375
+81,T4_zz_camouflage (standard),MGM (self-supervised),0.52421875
+81,T4_zz_camouflage (standard),MGM-C (calibrated),0.5046875
+81,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.43154296875
+81,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.3974609375
+81,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.4009765625
+81,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.6048828125000001
+81,T5_readout_flip (standard),Proposed GIN-L2D,0.8279296875000001
+81,T5_readout_flip (standard),MGM (self-supervised),0.5134765625
+81,T5_readout_flip (standard),MGM-C (calibrated),0.6541015625
+81,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.46660156249999996
+81,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.6013671875000002
+81,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.3744140625
+81,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.7255859375
+81,T1_phase (angle-matched),Proposed GIN-L2D,0.7119140625
+81,T1_phase (angle-matched),MGM (self-supervised),0.7134765625
+81,T1_phase (angle-matched),MGM-C (calibrated),0.6728515625000001
+81,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.7126953125000001
+81,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.46640625
+81,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.443359375
+81,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.7062499999999999
+81,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.7677734375
+81,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.6158203125
+81,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.6171875
+81,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.5125
+81,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.4664062500000001
+81,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.6052734375
+81,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.62421875
+81,T1_phase (pre-optimisation),Proposed GIN-L2D,0.4986328125
+81,T1_phase (pre-optimisation),MGM (self-supervised),0.48066406250000004
+81,T1_phase (pre-optimisation),MGM-C (calibrated),0.5404296875000001
+81,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.49609375
+81,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.528515625
+81,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.39697265625
+81,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.5509765625
+81,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.556640625
+81,T2_superposition (pre-optimisation),MGM (self-supervised),0.5927734375
+81,T2_superposition (pre-optimisation),MGM-C (calibrated),0.76201171875
+81,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.6114257812500001
+81,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.47226562499999997
+81,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.444921875
+81,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.619758064516129
+81,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.5814516129032257
+81,T3_entangler (pre-optimisation),MGM (self-supervised),0.5616935483870968
+81,T3_entangler (pre-optimisation),MGM-C (calibrated),0.5370967741935484
+81,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5894153225806452
+81,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.4467741935483871
+81,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.4662298387096774
+81,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.511491935483871
+81,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.6004032258064516
+81,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.5199596774193548
+81,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.4806451612903226
+81,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.4858870967741935
+81,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.5233870967741936
+81,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.4891129032258065
+81,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.6585937500000001
+81,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.581640625
+81,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.61513671875
+81,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.6919921875
+81,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.48369140625
+81,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.5279296874999999
+81,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.5572265625
+93,T1_phase (standard),B4 Idempotence-residual HGB,0.7659498064876511
+93,T1_phase (standard),Proposed GIN-L2D,0.6334836212743885
+93,T1_phase (standard),MGM (self-supervised),0.768922315764274
+93,T1_phase (standard),MGM-C (calibrated),0.6612336910984319
+93,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.7445636994773172
+93,T1_phase (standard),U2 Isolation forest (B2 features),0.4802697203048317
+93,T1_phase (standard),U3 Re-optimisation residual distance,0.5565973746159677
+93,T2_superposition (standard),B4 Idempotence-residual HGB,0.6561864102461796
+93,T2_superposition (standard),Proposed GIN-L2D,0.6720264932370427
+93,T2_superposition (standard),MGM (self-supervised),0.652954554522603
+93,T2_superposition (standard),MGM-C (calibrated),0.7467182699597017
+93,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.715856042772214
+93,T2_superposition (standard),U2 Isolation forest (B2 features),0.5211267605633803
+93,T2_superposition (standard),U3 Re-optimisation residual distance,0.601224913218689
+93,T3_entangler (standard),B4 Idempotence-residual HGB,0.5694250488768303
+93,T3_entangler (standard),Proposed GIN-L2D,0.6006862705980929
+93,T3_entangler (standard),MGM (self-supervised),0.5303036348402027
+93,T3_entangler (standard),MGM-C (calibrated),0.4731277181502614
+93,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.5495950205482185
+93,T3_entangler (standard),U2 Isolation forest (B2 features),0.535809759406296
+93,T3_entangler (standard),U3 Re-optimisation residual distance,0.5683078641822606
+93,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.5637798462161069
+93,T4_zz_camouflage (standard),Proposed GIN-L2D,0.730028328611898
+93,T4_zz_camouflage (standard),MGM (self-supervised),0.5176244435451234
+93,T4_zz_camouflage (standard),MGM-C (calibrated),0.5102185350060704
+93,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.46902063941724004
+93,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.43083771752326994
+93,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.5191420477539458
+93,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.6026812432669673
+93,T5_readout_flip (standard),Proposed GIN-L2D,0.8135099549136177
+93,T5_readout_flip (standard),MGM (self-supervised),0.49800502733112556
+93,T5_readout_flip (standard),MGM-C (calibrated),0.55751506204365
+93,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.5141443562223198
+93,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.5262338905956988
+93,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.46630491162271087
+93,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.702749072337709
+93,T1_phase (angle-matched),Proposed GIN-L2D,0.5619439013685512
+93,T1_phase (angle-matched),MGM (self-supervised),0.6478474244902845
+93,T1_phase (angle-matched),MGM-C (calibrated),0.6194190639588237
+93,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.6563061086063121
+93,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.4877309180864222
+93,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.5268922315764274
+93,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.660259004451639
+93,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.66685552407932
+93,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.5508093889113719
+93,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.5198704977741805
+93,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.5145082962363416
+93,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.4643868878996358
+93,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.6240590853905302
+93,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.5267503035208418
+93,T1_phase (pre-optimisation),Proposed GIN-L2D,0.5054229057061919
+93,T1_phase (pre-optimisation),MGM (self-supervised),0.48259813840550386
+93,T1_phase (pre-optimisation),MGM-C (calibrated),0.4879401052205585
+93,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.52132739781465
+93,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.5032173209227033
+93,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.5076689599352489
+93,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.4888709024686362
+93,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.5530149736948604
+93,T2_superposition (pre-optimisation),MGM (self-supervised),0.5775192229866452
+93,T2_superposition (pre-optimisation),MGM-C (calibrated),0.6577296641036018
+93,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.6356535815459328
+93,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.5001214083367058
+93,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.5462970457304734
+93,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.5291266009655667
+93,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.5827315165782229
+93,T3_entangler (pre-optimisation),MGM (self-supervised),0.5260942425088776
+93,T3_entangler (pre-optimisation),MGM-C (calibrated),0.5314407692614611
+93,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.47039460559390334
+93,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.4969875912699996
+93,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.5107130032318558
+93,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.47580098152655315
+93,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.6372341698918725
+93,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.5162590272513267
+93,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.4429238319435024
+93,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5577544587639149
+93,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.4784343454494673
+93,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.47745680884171887
+93,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.5061046163667557
+93,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.5254558512548377
+93,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.5143438534892071
+93,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.5396002074771576
+93,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.527789969277421
+93,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.5072417507880143
+93,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.5153213900969557
+105,T1_phase (standard),B4 Idempotence-residual HGB,0.8937075599818923
+105,T1_phase (standard),Proposed GIN-L2D,0.7657763693979175
+105,T1_phase (standard),MGM (self-supervised),0.7462200090538705
+105,T1_phase (standard),MGM-C (calibrated),0.8074241738343142
+105,T1_phase (standard),U1 Wire-bigram surprisal (calibrated),0.8112267994567676
+105,T1_phase (standard),U2 Isolation forest (B2 features),0.5027614305115438
+105,T1_phase (standard),U3 Re-optimisation residual distance,0.5638750565866909
+105,T2_superposition (standard),B4 Idempotence-residual HGB,0.7391579900407423
+105,T2_superposition (standard),Proposed GIN-L2D,0.6030783159800814
+105,T2_superposition (standard),MGM (self-supervised),0.6316432775011318
+105,T2_superposition (standard),MGM-C (calibrated),0.8264825712992305
+105,T2_superposition (standard),U1 Wire-bigram surprisal (calibrated),0.7105477591670438
+105,T2_superposition (standard),U2 Isolation forest (B2 features),0.5351742870076958
+105,T2_superposition (standard),U3 Re-optimisation residual distance,0.5948392937980987
+105,T3_entangler (standard),B4 Idempotence-residual HGB,0.5463558171118152
+105,T3_entangler (standard),Proposed GIN-L2D,0.491896785875962
+105,T3_entangler (standard),MGM (self-supervised),0.49280217292892714
+105,T3_entangler (standard),MGM-C (calibrated),0.6168401991851515
+105,T3_entangler (standard),U1 Wire-bigram surprisal (calibrated),0.657944771389769
+105,T3_entangler (standard),U2 Isolation forest (B2 features),0.53064735174287
+105,T3_entangler (standard),U3 Re-optimisation residual distance,0.5803078315980081
+105,T4_zz_camouflage (standard),B4 Idempotence-residual HGB,0.650520597555455
+105,T4_zz_camouflage (standard),Proposed GIN-L2D,0.6791308284291535
+105,T4_zz_camouflage (standard),MGM (self-supervised),0.5365776369397918
+105,T4_zz_camouflage (standard),MGM-C (calibrated),0.6504300588501584
+105,T4_zz_camouflage (standard),U1 Wire-bigram surprisal (calibrated),0.5141240380262562
+105,T4_zz_camouflage (standard),U2 Isolation forest (B2 features),0.49361702127659574
+105,T4_zz_camouflage (standard),U3 Re-optimisation residual distance,0.555454956994115
+105,T5_readout_flip (standard),B4 Idempotence-residual HGB,0.707922136713445
+105,T5_readout_flip (standard),Proposed GIN-L2D,0.7598008148483476
+105,T5_readout_flip (standard),MGM (self-supervised),0.5930285196921684
+105,T5_readout_flip (standard),MGM-C (calibrated),0.7353100950656406
+105,T5_readout_flip (standard),U1 Wire-bigram surprisal (calibrated),0.5792213671344499
+105,T5_readout_flip (standard),U2 Isolation forest (B2 features),0.5220461747397012
+105,T5_readout_flip (standard),U3 Re-optimisation residual distance,0.5401539157990041
+105,T1_phase (angle-matched),B4 Idempotence-residual HGB,0.8483476686283387
+105,T1_phase (angle-matched),Proposed GIN-L2D,0.7692168401991851
+105,T1_phase (angle-matched),MGM (self-supervised),0.7415119963784518
+105,T1_phase (angle-matched),MGM-C (calibrated),0.7638750565866907
+105,T1_phase (angle-matched),U1 Wire-bigram surprisal (calibrated),0.787143503847895
+105,T1_phase (angle-matched),U2 Isolation forest (B2 features),0.5135355364418289
+105,T1_phase (angle-matched),U3 Re-optimisation residual distance,0.5363965595291987
+105,T4_zz_camouflage (angle-matched),B4 Idempotence-residual HGB,0.5892258940697148
+105,T4_zz_camouflage (angle-matched),Proposed GIN-L2D,0.6179266636487097
+105,T4_zz_camouflage (angle-matched),MGM (self-supervised),0.5845178813942961
+105,T4_zz_camouflage (angle-matched),MGM-C (calibrated),0.649117247623359
+105,T4_zz_camouflage (angle-matched),U1 Wire-bigram surprisal (calibrated),0.5868718877320055
+105,T4_zz_camouflage (angle-matched),U2 Isolation forest (B2 features),0.47732005432322316
+105,T4_zz_camouflage (angle-matched),U3 Re-optimisation residual distance,0.5618832050701674
+105,T1_phase (pre-optimisation),B4 Idempotence-residual HGB,0.5593481213218652
+105,T1_phase (pre-optimisation),Proposed GIN-L2D,0.4767768220914441
+105,T1_phase (pre-optimisation),MGM (self-supervised),0.5262109551833409
+105,T1_phase (pre-optimisation),MGM-C (calibrated),0.5622000905387052
+105,T1_phase (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5301946582163876
+105,T1_phase (pre-optimisation),U2 Isolation forest (B2 features),0.4853327297419647
+105,T1_phase (pre-optimisation),U3 Re-optimisation residual distance,0.48768673607967405
+105,T2_superposition (pre-optimisation),B4 Idempotence-residual HGB,0.5636034404708012
+105,T2_superposition (pre-optimisation),Proposed GIN-L2D,0.5374377546401087
+105,T2_superposition (pre-optimisation),MGM (self-supervised),0.5702127659574467
+105,T2_superposition (pre-optimisation),MGM-C (calibrated),0.7009506564056134
+105,T2_superposition (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5808963331824355
+105,T2_superposition (pre-optimisation),U2 Isolation forest (B2 features),0.48881846989588046
+105,T2_superposition (pre-optimisation),U3 Re-optimisation residual distance,0.5816206428248076
+105,T3_entangler (pre-optimisation),B4 Idempotence-residual HGB,0.5027614305115436
+105,T3_entangler (pre-optimisation),Proposed GIN-L2D,0.44870982344952465
+105,T3_entangler (pre-optimisation),MGM (self-supervised),0.5066545948392939
+105,T3_entangler (pre-optimisation),MGM-C (calibrated),0.5940244454504301
+105,T3_entangler (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.4946582163875057
+105,T3_entangler (pre-optimisation),U2 Isolation forest (B2 features),0.4749660479855138
+105,T3_entangler (pre-optimisation),U3 Re-optimisation residual distance,0.5245812584880036
+105,T4_zz_camouflage (pre-optimisation),B4 Idempotence-residual HGB,0.6330466274332277
+105,T4_zz_camouflage (pre-optimisation),Proposed GIN-L2D,0.6234495246717972
+105,T4_zz_camouflage (pre-optimisation),MGM (self-supervised),0.5836124943413309
+105,T4_zz_camouflage (pre-optimisation),MGM-C (calibrated),0.5889542779538253
+105,T4_zz_camouflage (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.5715708465368945
+105,T4_zz_camouflage (pre-optimisation),U2 Isolation forest (B2 features),0.44463558171118156
+105,T4_zz_camouflage (pre-optimisation),U3 Re-optimisation residual distance,0.45368945224083296
+105,T5_readout_flip (pre-optimisation),B4 Idempotence-residual HGB,0.5546853779990946
+105,T5_readout_flip (pre-optimisation),Proposed GIN-L2D,0.5425984608420099
+105,T5_readout_flip (pre-optimisation),MGM (self-supervised),0.5551833408782254
+105,T5_readout_flip (pre-optimisation),MGM-C (calibrated),0.6052512449071977
+105,T5_readout_flip (pre-optimisation),U1 Wire-bigram surprisal (calibrated),0.504753282028067
+105,T5_readout_flip (pre-optimisation),U2 Isolation forest (B2 features),0.5202354006337709
+105,T5_readout_flip (pre-optimisation),U3 Re-optimisation residual distance,0.5324128564961521

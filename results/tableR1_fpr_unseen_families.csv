@@ -1,0 +1,8 @@
+model,FPR on unseen families (target 0.10)
+B4 Idempotence-residual HGB,0.151 ± 0.077
+Proposed GIN-L2D,0.255 ± 0.202
+MGM (self-supervised),0.206 ± 0.204
+MGM-C (calibrated),0.194 ± 0.103
+U1 Wire-bigram surprisal (calibrated),0.178 ± 0.131
+U2 Isolation forest (B2 features),0.149 ± 0.051
+U3 Re-optimisation residual distance,0.165 ± 0.048

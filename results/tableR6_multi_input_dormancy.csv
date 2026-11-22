@@ -1,0 +1,7 @@
+kind,trojans,dormant on all-zero input,"of these, active on another input",dormant on all five inputs
+T1_phase,208,130,3,127
+T2_superposition,208,24,6,18
+T3_entangler,208,83,54,29
+T4_zz_camouflage,210,87,3,84
+T5_readout_flip,209,25,4,21
+All,1043,349,70,279

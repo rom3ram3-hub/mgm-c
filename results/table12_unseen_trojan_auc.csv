@@ -1,0 +1,7 @@
+held_out,B4 Idempotence-residual HGB,Proposed GIN-L2D,MGM (self-supervised),MGM-C (calibrated)
+T1_phase,0.612,0.453,0.681,0.703
+T2_superposition,0.488,0.544,0.576,0.663
+T3_entangler,0.484,0.513,0.494,0.564
+T4_zz_camouflage,0.585,0.58,0.459,0.471
+T5_readout_flip,0.58,0.546,0.51,0.566
+Mean,0.55,0.527,0.544,0.593

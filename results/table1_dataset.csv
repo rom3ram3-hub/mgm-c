@@ -1,0 +1,4 @@
+source,base_circuits,families,samples,trojaned,qubits_min,qubits_max,gates_median,gates_max
+MQT Bench,178.0,19.0,1759.0,879.0,3.0,10.0,113.0,1473.0
+QASMBench,33.0,26.0,327.0,164.0,2.0,11.0,57.0,1493.0
+Total,211.0,34.0,2086.0,1043.0,2.0,11.0,101.0,1493.0

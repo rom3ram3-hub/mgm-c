@@ -1,0 +1,101 @@
+seed,group,variant,AUC (all types),AUC (mean over types)
+7,calibration,Raw surprisal (mean of three highest),0.5426101947628367,0.5432090077410273
+7,calibration,"Pooled p-value (no per-type), size-corrected",0.5588947907930295,0.5597263273125341
+7,calibration,"Per-type p-value, no size correction",0.5691687633957693,0.5699405739307217
+7,calibration,"Per-type p-value, size-corrected (MGM-C)",0.5881558102693132,0.589039017906013
+7,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.5881558102693132,0.589039017906013
+7,architecture,Gate graph instead of port graph,0.6054188798807194,0.6065259207131127
+7,architecture,Mask rate 10%,0.5776721647563134,0.5785331143951834
+7,architecture,Mask rate 25%,0.6039511695088994,0.6048307138947533
+7,architecture,2 GINE layers,0.575901593514118,0.5768684025334272
+7,architecture,6 GINE layers,0.5655810269313205,0.5663484244272421
+11,calibration,Raw surprisal (mean of three highest),0.6031418509959282,0.6029062265506824
+11,calibration,"Pooled p-value (no per-type), size-corrected",0.6343310957044862,0.6340348111945306
+11,calibration,"Per-type p-value, no size correction",0.6637870951175672,0.6634692880936028
+11,calibration,"Per-type p-value, size-corrected (MGM-C)",0.6600179743956568,0.6597821124137958
+11,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.6600179743956568,0.6597821124137958
+11,architecture,Gate graph instead of port graph,0.634459484244892,0.634163447451692
+11,architecture,Mask rate 10%,0.6655386816331021,0.6652545131872014
+11,architecture,Mask rate 25%,0.6908495653130846,0.6904755571260119
+11,architecture,2 GINE layers,0.6599079270753091,0.6596346174460939
+11,architecture,6 GINE layers,0.6747826565423132,0.6744059506179702
+21,calibration,Raw surprisal (mean of three highest),0.5681476095719169,0.5688046437822474
+21,calibration,"Pooled p-value (no per-type), size-corrected",0.6026200316342671,0.603437306596601
+21,calibration,"Per-type p-value, no size correction",0.6012998112148579,0.602175962957038
+21,calibration,"Per-type p-value, size-corrected (MGM-C)",0.6357020766365631,0.6366282182729551
+21,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.6357020766365631,0.6366282182729551
+21,architecture,Gate graph instead of port graph,0.6138004490025001,0.6144908249023591
+21,architecture,Mask rate 10%,0.6305678861166386,0.6316825227155574
+21,architecture,Mask rate 25%,0.6323792030205623,0.6334121914231097
+21,architecture,2 GINE layers,0.6032450635236491,0.6042582823111939
+21,architecture,6 GINE layers,0.6497716720240828,0.6507107610257105
+33,calibration,Raw surprisal (mean of three highest),0.5690828402366864,0.5690828402366864
+33,calibration,"Pooled p-value (no per-type), size-corrected",0.5840236686390532,0.5840236686390533
+33,calibration,"Per-type p-value, no size correction",0.605680473372781,0.6056804733727811
+33,calibration,"Per-type p-value, size-corrected (MGM-C)",0.5990828402366865,0.5990828402366863
+33,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.5990828402366865,0.5990828402366863
+33,architecture,Gate graph instead of port graph,0.5462721893491125,0.5462721893491124
+33,architecture,Mask rate 10%,0.5858875739644971,0.5858875739644971
+33,architecture,Mask rate 25%,0.5847337278106509,0.5847337278106508
+33,architecture,2 GINE layers,0.5642307692307693,0.5642307692307692
+33,architecture,6 GINE layers,0.5909467455621302,0.5909467455621302
+45,calibration,Raw surprisal (mean of three highest),0.5802352446964923,0.5811393245176354
+45,calibration,"Pooled p-value (no per-type), size-corrected",0.5415616467128754,0.5435532233883058
+45,calibration,"Per-type p-value, no size correction",0.5461562696912414,0.546805334105434
+45,calibration,"Per-type p-value, size-corrected (MGM-C)",0.5296681369460198,0.5301343045408513
+45,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.5296681369460198,0.5301343045408513
+45,architecture,Gate graph instead of port graph,0.538253518168452,0.5383881471962431
+45,architecture,Mask rate 10%,0.5361793740810754,0.5367181819143338
+45,architecture,Mask rate 25%,0.524390884268011,0.5250634933855823
+45,architecture,2 GINE layers,0.5333175803402647,0.5340319919405376
+45,architecture,6 GINE layers,0.5427693761814745,0.5432267001419925
+57,calibration,Raw surprisal (mean of three highest),0.5765827160493827,0.5765827160493827
+57,calibration,"Pooled p-value (no per-type), size-corrected",0.6001777777777777,0.6001777777777779
+57,calibration,"Per-type p-value, no size correction",0.607279012345679,0.607279012345679
+57,calibration,"Per-type p-value, size-corrected (MGM-C)",0.6019456790123456,0.6019456790123457
+57,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.6019456790123456,0.6019456790123457
+57,architecture,Gate graph instead of port graph,0.5687407407407408,0.5687407407407407
+57,architecture,Mask rate 10%,0.6013037037037037,0.6013037037037037
+57,architecture,Mask rate 25%,0.5866962962962963,0.5866962962962963
+57,architecture,2 GINE layers,0.5677827160493827,0.5677827160493827
+57,architecture,6 GINE layers,0.6006518518518519,0.6006518518518519
+69,calibration,Raw surprisal (mean of three highest),0.5353947996183206,0.5357195512820513
+69,calibration,"Pooled p-value (no per-type), size-corrected",0.522244751908397,0.523244391025641
+69,calibration,"Per-type p-value, no size correction",0.5769024332061069,0.5769022435897435
+69,calibration,"Per-type p-value, size-corrected (MGM-C)",0.5668535305343512,0.567309561965812
+69,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.5668535305343512,0.567309561965812
+69,architecture,Gate graph instead of port graph,0.5534649332061069,0.5542458155270656
+69,architecture,Mask rate 10%,0.5530772900763359,0.5536554487179487
+69,architecture,Mask rate 25%,0.5752922232824428,0.5764526798433047
+69,architecture,2 GINE layers,0.5548664122137404,0.5553288372507122
+69,architecture,6 GINE layers,0.5869811545801527,0.5880804398148148
+81,calibration,Raw surprisal (mean of three highest),0.60962890625,0.60962890625
+81,calibration,"Pooled p-value (no per-type), size-corrected",0.652734375,0.652734375
+81,calibration,"Per-type p-value, no size correction",0.6265234375,0.6265234375000001
+81,calibration,"Per-type p-value, size-corrected (MGM-C)",0.630078125,0.630078125
+81,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.630078125,0.630078125
+81,architecture,Gate graph instead of port graph,0.682734375,0.6827343750000001
+81,architecture,Mask rate 10%,0.64548828125,0.64548828125
+81,architecture,Mask rate 25%,0.62443359375,0.62443359375
+81,architecture,2 GINE layers,0.602421875,0.602421875
+81,architecture,6 GINE layers,0.63974609375,0.63974609375
+93,calibration,Raw surprisal (mean of three highest),0.5939045469822827,0.5936328452300204
+93,calibration,"Pooled p-value (no per-type), size-corrected",0.6036195003280997,0.6033614149486153
+93,calibration,"Per-type p-value, no size correction",0.619308269713993,0.619027878318067
+93,calibration,"Per-type p-value, size-corrected (MGM-C)",0.5933523791232534,0.5931137533415792
+93,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.5933523791232534,0.5931137533415792
+93,architecture,Gate graph instead of port graph,0.6623493542036778,0.6621918479716827
+93,architecture,Mask rate 10%,0.5913357660728862,0.5910714143216238
+93,architecture,Mask rate 25%,0.6084489684864198,0.6081682730946586
+93,architecture,2 GINE layers,0.6133864694867239,0.613157414743418
+93,architecture,6 GINE layers,0.6288751780541284,0.628528964153191
+105,calibration,Raw surprisal (mean of three highest),0.6012675418741512,0.6012675418741511
+105,calibration,"Pooled p-value (no per-type), size-corrected",0.6527297419646898,0.6527297419646899
+105,calibration,"Per-type p-value, no size correction",0.7141511996378451,0.7141511996378452
+105,calibration,"Per-type p-value, size-corrected (MGM-C)",0.7291534631054777,0.7291534631054776
+105,architecture,"MGM-C (port graph, 15% mask, 4 layers)",0.7291534631054777,0.7291534631054776
+105,architecture,Gate graph instead of port graph,0.5543956541421458,0.5543956541421458
+105,architecture,Mask rate 10%,0.7079130828429154,0.7079130828429153
+105,architecture,Mask rate 25%,0.6986962426437301,0.6986962426437302
+105,architecture,2 GINE layers,0.6543232231779085,0.6543232231779086
+105,architecture,6 GINE layers,0.731145314622001,0.7311453146220008

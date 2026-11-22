@@ -1,0 +1,6 @@
+kind,n,tvd_mean,tvd_median,dormant_share,hellinger_mean
+T1_phase,208,0.0729,0.0,0.625,0.9563
+T2_superposition,208,0.3422,0.3778,0.1154,0.7177
+T3_entangler,208,0.3058,0.2234,0.399,0.7095
+T4_zz_camouflage,210,0.1122,0.0355,0.4143,0.923
+T5_readout_flip,209,0.6995,0.9041,0.1196,0.3379
