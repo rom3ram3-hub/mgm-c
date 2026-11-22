@@ -37,7 +37,6 @@ Note that the GPU training of the neural models is not bit-for-bit deterministic
 ├── QTrojan_GNN_Detection_v6.ipynb   # complete pipeline: data, models, all experiments
 ├── make_figures.py                  # redraws paper Figs. 2–5 from the CSV results
 ├── results/                         # CSV tables and diagnostic plots from the run reported in the paper
-├── figures/                         # paper figures (Fig. 1 pipeline diagram and Figs. 2–5)
 └── README.md
 ```
 
