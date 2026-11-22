@@ -1,8 +1,8 @@
-MGM-C: Calibrated Self-Supervised Masked Gate Modeling for Trojan Detection in Untrusted Quantum Compilation
+###MGM-C: Calibrated Self-Supervised Masked Gate Modeling for Trojan Detection in Untrusted Quantum Compilation
 
 Code and results for the paper
 
-S. J. Basha, T. Ammannamma, D. Veeraiah, M. H. Krishna, S. N. Mohanty, and P. Suhas, "MGM-C: Calibrated self-supervised masked gate modeling for trojan detection in untrusted quantum compilation," in Proc. IEEE Int. Conf. Consumer Electronics (ICCE), Las Vegas, NV, USA, 2027.
+S. J. Basha, T. Ammannamma, D. Veeraiah, M. H. Krishna, S. N. Mohanty, and P. Suhas
 
 Overview
 
@@ -92,19 +92,7 @@ Threat model and scope
 The defender sees only the returned circuit in the native basis {rz, sx, x, cx}. The source circuit, a reference compilation and full simulation are not available to it.
 Trojans are inserted into the compiled circuit after the optimization passes.
 Circuits have at most 11 qubits, and hardware noise is not modeled.
-Citation
-bibtex
-@inproceedings{basha2027mgmc,
-  author    = {Basha, Shaik Johny and Ammannamma, T. and Veeraiah, Duggineni and Krishna, Malempati Hari and Mohanty, Sachi Nandan and Suhas, Penumudi},
-  title     = {{MGM-C}: Calibrated Self-Supervised Masked Gate Modeling for Trojan Detection in Untrusted Quantum Compilation},
-  booktitle = {Proc. IEEE International Conference on Consumer Electronics (ICCE)},
-  address   = {Las Vegas, NV, USA},
-  year      = {2027}
-}
+
 License
 
 Released under the MIT License (see LICENSE). The benchmark circuits remain under the licenses of MQT Bench and QASMBench.
-
-Contact
-
-Shaik Johny Basha, Department of CSE, SRM University-AP, Amaravati, India: johnybasha.s@srmap.edu.in
